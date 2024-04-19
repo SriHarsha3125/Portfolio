@@ -30,7 +30,7 @@
     margin-right: auto;
 }
 .navbar a {
-    font-size: 10px;
+    font-size: 18px;
     color:#333;
     font-weight:500;
     margin-right:35px;
@@ -124,9 +124,9 @@ transition: .5s;
     top: 0;
     width:100%;
     background:#15202b;
-    color:#f0f3fd
+    color:#f0f3fd;
 }
-#dark-container.logo,#dark-container .navbar a{
+#dark-container .logo,#dark-container .navbar a{
     color:#f0f3fd;
 }
 #dark-container .navbar a:hover,
