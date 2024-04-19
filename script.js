@@ -15,12 +15,12 @@ const darkContainerImg = document.querySelector('#dark-container .home-img img')
 darkContainerImg.src = 'digital-passport.jpg';
 
 toggleIcons.forEach(toggle =>{
-    toggle.addEventListener('click',() =>{
+    toggle.addEventListener('click', () => {
 
         toggle.classList.add('disabled');
 
         setTimeout(() => {
-            toggle.classList.add('disabled');
+            toggle.classList.remove('disabled');
         }, 1500);
         icons.forEach(icon => {
             icon.classList.toggle('bx-sun');
