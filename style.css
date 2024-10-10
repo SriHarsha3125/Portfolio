@@ -46,6 +46,30 @@
     cursor:pointer;
     
 }
+#phone-info {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    color: #333;
+    z-index: 1000;
+}
+
+#phone-info i {
+    margin-right: 10px;
+    color: #37a1f2;
+}
+
+#phone-info span {
+    font-size: 18px;
+}
 .toggle-icon.disabled{
      pointer-events: none;
 }

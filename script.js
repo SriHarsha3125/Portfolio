@@ -8,6 +8,11 @@ cloneContainer.classList.remove('active');
 
 const toggleIcons = document.querySelectorAll('.toggle-icon');
 const icons = document.querySelectorAll('.toggle-icon i');
+const contactLink = document.getElementById('contact-link');
+const phoneInfo = document.getElementById('phone-info');
+contactLink.addEventListener('click', () => {
+    phoneInfo.style.display = phoneInfo.style.display === 'none' ? 'flex' : 'none';
+});
 const darkContainer = document.querySelector('#dark-container');
 
 const darkContainerImg = document.querySelector('#dark-container .home-img img');
